@@ -4,6 +4,7 @@ import './App.css'
 import { colors } from '@mui/material'
 import axios from 'axios'
 import Cards from './components/card'
+import Footer from './components/footer'
 
 
 
@@ -19,16 +20,19 @@ function App() {
   return (
     <>
     <Appbar   bgcolor="#121212" />
-    {/* <div>
+      <h1 style={{fontFamily:"monospace",fontSize:35,margin:10,marginLeft:30}}>Products:</h1>
+    <div style={{display:"flex",justifyContent:"center",flexWrap:"wrap", gap:15}}>
+      
       {
         products && products.map((e,i)=>{
           return(
-            <h1>{e.title}</h1>
+            // <h1>{e.title}</h1>
+            <Cards image={e.image}  title={e.title } desc={e.description}/>
           )
         })
       }
-    </div> */}
-    <Cards />
+    </div>
+    <Footer/>
     </>
   )
 }
