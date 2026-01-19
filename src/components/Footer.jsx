@@ -19,7 +19,7 @@ function Footer() {
         Copy rights
       </Typography>
       <Typography variant="body2" sx={{marginLeft:1}}>
-        © {new Date().getFullYear()} Shah Tech Hub. All rights reserved.
+        © {new Date().getFullYear()} Shah TechHub. All rights reserved.
       </Typography>
       <Box sx={{fontFamily:"sans-serif",fontSize:13}}>
         <Link href="#" color="inherit" sx={{ mx: 1 }}>Privacy</Link>
