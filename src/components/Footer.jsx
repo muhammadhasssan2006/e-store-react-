@@ -15,17 +15,17 @@ function Footer() {
         justifyContent:"center"
       }}
     >
-      <Typography variant="body1">
+      <Typography variant="body2">
         Copy rights
       </Typography>
       <Typography variant="body2" sx={{marginLeft:1}}>
         © {new Date().getFullYear()} Shah Tech Hub. All rights reserved.
       </Typography>
-      {/* <Box mt={1}>
+      <Box sx={{fontFamily:"sans-serif",fontSize:13}}>
         <Link href="#" color="inherit" sx={{ mx: 1 }}>Privacy</Link>
         <Link href="#" color="inherit" sx={{ mx: 1 }}>Terms</Link>
         <Link href="#" color="inherit" sx={{ mx: 1 }}>Contact</Link>
-      </Box> */}
+      </Box>
     </Box>
   );
 }
