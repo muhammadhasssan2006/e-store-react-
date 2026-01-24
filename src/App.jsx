@@ -4,7 +4,7 @@ import './App.css'
 import { colors } from '@mui/material'
 import axios from 'axios'
 import Cards from './components/Card'
-import Footers from './components/Footer'
+import Footers from './components/footer'
 
 
 
