@@ -3,7 +3,7 @@ import Appbar from './components/Appbar'
 import './App.css'
 import { colors } from '@mui/material'
 import axios from 'axios'
-import Cards from './components/card'
+import Cards from './components/Card'
 import Footer from './components/footer'
 
 
