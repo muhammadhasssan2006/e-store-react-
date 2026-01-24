@@ -4,7 +4,7 @@ import './App.css'
 import { colors } from '@mui/material'
 import axios from 'axios'
 import Cards from './components/Card'
-import Footer from './components/footer'
+import Footers from './components/Footer'
 
 
 
@@ -26,13 +26,12 @@ function App() {
       {
         products && products.map((e,i)=>{
           return(
-            // <h1>{e.title}</h1>
             <Cards image={e.image}  title={e.title } desc={e.description}/>
           )
         })
       }
     </div>
-    <Footer/>
+    <Footers/>
     </>
   )
 }

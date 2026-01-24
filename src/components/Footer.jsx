@@ -1,6 +1,6 @@
 import { Box, Typography, Link } from '@mui/material';
 
-function Footer() {
+function Footers() {
   return (
     <Box
       component="footer"
@@ -30,4 +30,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footers;
